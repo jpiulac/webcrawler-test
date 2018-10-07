@@ -1,0 +1,22 @@
+{
+  "name": "web-crawler-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tape ./test/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "get-hrefs": "^2.0.0",
+    "get-urls": "^8.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "sitemap-generator": "^8.3.1"
+  }
+}
